@@ -17,7 +17,7 @@ find_package(catkin REQUIRED cmake_modules roscpp)
 find_package(VTK 7.1 REQUIRED NO_MODULE)
 include(${VTK_USE_FILE})
 
-find_package(PCL 1.8 REQUIRED)
+find_package(PCL 1.8.1 EXACT REQUIRED)
 
 find_package(Eigen3 REQUIRED)
 
